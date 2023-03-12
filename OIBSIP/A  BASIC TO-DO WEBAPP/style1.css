@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+}
+
+nav{
+    height: 4em;
+    background-color: #0c0a29;
+    color: #fff;
+}
+
+h2{
+    padding: 0.5em 0em 0em 4em;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.left{
+    float: left;
+    margin: 5em 0em 0em 8em;
+    background-color: #fff;
+    width: 25em;
+    height: 28em;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    border-radius: 0.5em;
+    border: 0.5em;
+    border-color: beige;
+    border-style: groove;
+}
+
+label{
+    margin-left: 1em;
+
+}
+
+.left input{
+    margin: 1em;
+    width: 22em;
+}
+
+.left textarea{
+    margin:1em ;
+    width: 22em;
+}
+
+#submit{
+    margin-top: 0.2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+    width: 20em;
+    height: 2em;
+    color:#fff;
+    font-weight: bolder;
+    border: 0.3em solid #2deb08;
+    border-style: outset;
+    border-radius: 0.3em;
+    background-color: rgb(13, 126, 13);
+}
+
+.submit:hover{
+    color: blue;
+
+}
+
+
+.right{
+    width: 40em;
+    margin: 5em 5em 0em 4em;
+    float: right;
+}
+
+#heading{
+    font-size: 1em;
+    border-style: groove;
+    border: 0.2em solid #e2d6d6;
+    color: #1f0d5e;
+    box-shadow:blanchedalmond;
+}
+
+#records{
+    box-shadow: 0.2em #2f2e3d;
+    border-style: outset;
+}
+tr{
+padding: 1em;
+}
